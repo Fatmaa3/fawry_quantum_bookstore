@@ -16,7 +16,6 @@ inventory.addBook(ebook2);
 inventory.addBook(demoBook);
 inventory.removeBook("AB123");
 List<Book>removedBooks=inventory.removeOutdatedBooks();
-System.out.println(removedBooks);
 System.out.println("---------------------------");
 quantum_book_store.BuyBook("ABCD1",5,"test1@gmail.com","my_address1");
         System.out.println("---------------------------");
